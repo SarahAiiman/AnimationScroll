@@ -1,0 +1,178 @@
+* {
+    transition: all 0.3s ease-in-out 0s;
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+}
+
+body {
+    margin: 0%;
+}
+
+section , .second {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+}
+
+section .left , .Right {
+    width: 50%;
+}
+
+.left {
+    padding: 4rem 4rem 2rem 4rem;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.left h1 {
+    font-size: 3em;
+    font-family: 'Charmonman', cursive;
+}
+
+.left p {
+    font-size: 1.5em;
+    line-height: 40px;
+    font-family: 'Mali', cursive;
+}
+.Right img {
+    width: 100%;
+    height: 100%;
+}
+
+.second .one , .two {
+    width: 50%;
+}
+.second .one img {
+    width: 100%;
+    height: 100%;
+}
+
+.two {
+    padding: 4rem 4rem 2rem 4rem;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+.two h2 {
+    font-size: 2.5em;
+    font-family: 'Charmonman', cursive;
+}
+
+.two p {
+    font-size: 1.5em;
+    line-height: 40px;
+    font-family: 'Mali', cursive;
+}
+
+.sec3 {
+    height: 50vh;
+    text-align: center;
+    background-color: azure;
+    padding: 4rem 4rem 2rem 4rem;
+}
+
+.sec3 h2 {
+    font-size: 2.5em;
+    font-family: 'Charmonman', cursive;
+}
+
+.sec3 p {
+    font-size: 100%; 
+    font-family: 'Mali', cursive;
+}
+
+.Fourth {
+    display: flex;
+    width: 100%;
+    height: 50vh;
+}
+
+.Fourth img {
+    width: 25%;
+}
+
+.Fifth {
+    text-align: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.Fifth h2:first-child {
+    margin-top: 0%;
+    padding: 20px;
+    font-family: 'Charmonman', cursive;
+    font-size: 3em;
+}
+
+.Fifth h2 {
+    font-size: 2.5em;
+    font-family: 'Charmonman', cursive;
+}
+
+.Fifth p {
+    font-size: 1em;
+    font-family: 'Mali', cursive;
+}
+
+.Fifth .row1 , .row2 , .row3{
+    display: flex;
+    justify-content: center;
+    margin: 0 15px;
+    border: 1px solid;
+    box-sizing: border-box;
+    border-bottom: 1px solid;
+    text-align: center;
+}
+
+.row1 .one , .row2 .four , .row3 .seven {
+    border-right: 1px solid;
+    border-color: rgba(0, 0, 0, 0.2);
+}
+
+.row1 .Numtwo , .row2 .five , .row3 .eight {
+    border-right: 1px solid;
+    border-color: rgba(0, 0, 0, 0.2);
+}
+
+.row1 .one , .row2 .four , .row3 .seven {
+    border-right: 1px solid;
+    border-color: rgba(0, 0, 0, 0.2);
+}
+
+.Fifth .row1 , .row2 , .row3 {
+    border-left: 0px; 
+    padding: 3.5rem 3.5rem 1.5rem 3.5rem;
+}
+
+.Fifth .row1 , .row2 , .row3 {
+    border-right: 0px;
+    padding: 3.5rem 3.5rem 1.5rem 3.5rem;
+}
+
+.Fifth .row1 , .row2 , .row3 {
+    border-top: 0px;
+    padding: 3.5rem 3.5rem 1.5rem 3.5rem;
+    clear: both;
+}
+
+span {
+    font-size: x-large;
+}
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: url('../assets/bgOpti.jpg');
+    background-size: cover;
+    background-position: right;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #000;
+    /* box-shadow: inset 0 0 6px rgba(0, 0, 0, .3); */
+}
+footer {
+    bottom: 0%;
+}
