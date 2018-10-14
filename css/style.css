@@ -176,9 +176,9 @@ span {
     /* box-shadow: inset 0 0 6px rgba(0, 0, 0, .3); */
 }
 
-@media screen and (min-width: 769px) and (max-width: 1025px) {
+@media screen and (min-width: 300px) and (max-width: 577px) {
     .Fourth {
-        height: 30vh;
+        height: 20vh;
         width: 100%;
         display: flex;
         flex-direction: row;
@@ -192,14 +192,14 @@ span {
     }
     section .Right {
         width: 100%;
-        height: 50vh;
+        height: 70vh;
     }
 
     section .left {
         width: 100%;
         padding: 0%;
         margin: 0%;
-
+        font-size: 10px;
     }
 
     .second {
@@ -219,8 +219,97 @@ span {
         height: 50vh;
         margin: 0%;
         padding: 0%;
+        font-size: 10px;
     }
 
+    
+.sec3 {
+    height: 50vh;
+    text-align: center;
+    background-color: azure;
+    padding: 0%;
+}
+
+.sec3 h2 {
+    font-size: 1em;
+    font-family: 'Charmonman', cursive;
+}
+
+.sec3 p {
+    font-size: 20px; 
+    font-family: 'Mali', cursive;
+}
+
+.Fifth {
+    text-align: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.Fifth h2:first-child {
+    margin-top: 0%;
+    padding: 10px;
+    font-family: 'Charmonman', cursive;
+    font-size: 2em;
+}
+
+.Fifth h2 {
+    font-size: 1.5em;
+    font-family: 'Charmonman', cursive;
+}
+
+.Fifth p {
+    font-size: 0.8em;
+    font-family: 'Mali', cursive;
+}
+
+.Fifth .row1 , .row2 , .row3{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    border: 1px solid;
+    box-sizing: border-box;
+    border-bottom: 1px solid;
+    text-align: center;
+}
+
+.row1 .one , .row2 .four , .row3 .seven {
+    border-right: 1px solid;
+    border-color: rgba(0, 0, 0, 0.2);
+}
+
+.row1 .Numtwo , .row2 .five , .row3 .eight {
+    border-right: 1px solid;
+    border-color: rgba(0, 0, 0, 0.2);
+}
+
+.row1 .one , .row2 .four , .row3 .seven {
+    border-right: 1px solid;
+    border-color: rgba(0, 0, 0, 0.2);
+}
+
+.Fifth .row1 , .row2 , .row3 {
+    border-left: 0px; 
+    padding: 3.5rem 3.5rem 1.5rem 3.5rem;
+}
+
+.Fifth .row1 , .row2 , .row3 {
+    border-right: 0px;
+    padding: 3.5rem 3.5rem 1.5rem 3.5rem;
+}
+
+.Fifth .row1 , .row2 , .row3 {
+    border-top: 0px;
+    padding: 3.5rem 3.5rem 1.5rem 3.5rem;
+    clear: both;
+}
+
+span {
+    font-size: x-large;
+}
+
+
+}
 
 @media screen and (min-width: 577px) and (max-width: 769px) {
     .Fourth {
@@ -268,6 +357,53 @@ span {
     }
 
 
+@media screen and (min-width: 769px) and (max-width: 1025px) {
+    .Fourth {
+        height: 30vh;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+
+
+    section {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+    section .Right {
+        width: 100%;
+        height: 50vh;
+    }
+
+    section .left {
+        width: 100%;
+        padding: 0%;
+        margin: 0%;
+
+    }
+
+    .second {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .second .one {
+        width: 100%;
+        height: 50vh; 
+        padding: 0%;
+        margin: 0%;
+    }
+
+    .second .two {
+        width: 100%;
+        height: 50vh;
+        margin: 0%;
+        padding: 0%;
+    }
+
+
+} 
 }
 
 
